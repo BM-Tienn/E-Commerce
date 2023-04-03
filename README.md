@@ -14,7 +14,8 @@ rm -rf example-app
 chmod -R 777 storage
 chmod -R 775 bootstrap/cache
 
-
+npm install -g npm@latest
+npm update
 composer config --global process-timeout 2000
 composer install 
 composer update
